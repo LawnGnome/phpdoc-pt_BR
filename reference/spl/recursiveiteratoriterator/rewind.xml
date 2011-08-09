@@ -1,9 +1,9 @@
-<?xml version='1.0' encoding='iso-8859-1'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- EN-Revision: 297078 Maintainer: diogo Status: ready -->
 <refentry xml:id="recursiveiteratoriterator.rewind" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>RecursiveIteratorIterator::rewind</refname>
-  <refpurpose>Recomeça o iterador no primeiro elemento do primeiro iterador interno</refpurpose>
+  <refpurpose>RecomeÃ§a o iterador no primeiro elemento do primeiro iterador interno</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
