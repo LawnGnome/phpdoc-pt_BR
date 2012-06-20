@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 321126 Maintainer: thiago Status: ready -->
+<!-- EN-Revision: 326069 Maintainer: kinncj Status: ready -->
 
 <!ENTITY PHPManual         "Manual do PHP">
 <!ENTITY Seealso           "Veja também">
@@ -52,6 +52,9 @@
 <!ENTITY FunctionListingDescription   "Lista de todas as funções e métodos no manual">
 <!ENTITY ExampleListing    "Lista de exemplos">
 <!ENTITY ExampleListingDescription   "Lista de todos os exemplos no manual">
+<!ENTITY ChangelogListingTitle "Changelog">
+<!ENTITY ChangelogListingDescription "As seguintes mudanças tem sido feitas para classes/funções/métodos desta extensão.">
+<!ENTITY ChangelogListingBundledDescription "As seguintes mudanças tem sido feitas para funções de extensões built-in.">
 <!ENTITY CHMEdition        "HTML Help Edition">
 <!ENTITY ReservedConstants "Constantes Pré-definidas">
 <!ENTITY MissingStuff      "(Identificadores não encontrados na compilação do manual)">

@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- EN-Revision: 297078 Maintainer: diogo Status: ready -->
+<!-- EN-Revision: 322381 Maintainer: kinncj Status: ready -->
 <refentry xml:id="recursivedirectoryiterator.rewind" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>RecursiveDirectoryIterator::rewind</refname>
   <refpurpose>Recomeça a iteração do diretório</refpurpose>
  </refnamediv>
-
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>void</type><methodname>RecursiveDirectoryIterator::rewind</methodname>
+   <modifier>public</modifier> <type>void</type><methodname>RecursiveDirectoryIterator::rewind</methodname>
    <void/>
   </methodsynopsis>
 

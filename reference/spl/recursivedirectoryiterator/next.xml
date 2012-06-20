@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- EN-Revision: 297078 Maintainer: diogo Status: ready -->
+<!-- EN-Revision: 322381 Maintainer: kinncj Status: ready -->
 <refentry xml:id="recursivedirectoryiterator.next" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>RecursiveDirectoryIterator::next</refname>
   <refpurpose>Avança para o próximo elemento</refpurpose>
  </refnamediv>
-
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>void</type><methodname>RecursiveDirectoryIterator::next</methodname>
+   <modifier>public</modifier> <type>void</type><methodname>RecursiveDirectoryIterator::next</methodname>
    <void/>
   </methodsynopsis>
 
