@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision$ -->
-<refentry xml:id="function.curl-multi-select" xmlns="http://docbook.org/ns/docbook">
+<!-- $Revision: 314119 $ -->
+<refentry xml:id="function.curl-multi-remove-handle" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>curl_multi_select</refname>
-  <refpurpose>Wait for activity on any curl_multi connection</refpurpose>
+  <refname>curl_multi_remove_handle</refname>
+  <refpurpose>Remove a multi handle from a set of cURL handles</refpurpose>
  </refnamediv>
  
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>int</type><methodname>curl_multi_select</methodname>
+   <type>int</type><methodname>curl_multi_remove_handle</methodname>
    <methodparam><type>resource</type><parameter>mh</parameter></methodparam>
-   <methodparam choice="opt"><type>float</type><parameter>timeout</parameter><initializer>1.0</initializer></methodparam>
+   <methodparam><type>resource</type><parameter>ch</parameter></methodparam>
   </methodsynopsis>
   <para>
-    Blocks until there is activity on any of the curl_multi connections.
+   Removes a given <parameter>ch</parameter> handle from the given <parameter>mh</parameter>
+   handle. When the <parameter>ch</parameter> handle has been removed, it is again perfectly 
+   legal to run <function>curl_exec</function> on this handle.  Removing the <parameter>ch</parameter> handle while being 
+   used, will effectively halt the transfer in progress involving that handle.
   </para>
-
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,14 +26,7 @@
   <para>
    <variablelist>
     &curl.mh.description;
-    <varlistentry>
-     <term><parameter>timeout</parameter></term>
-     <listitem>
-      <para>
-       Time, in seconds, to wait for a response.
-      </para>
-     </listitem>
-    </varlistentry>
+    &curl.ch.description;
    </variablelist>
   </para>
  </refsect1>
@@ -39,8 +34,8 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   On success, returns the number of descriptors contained in 
-   the descriptor sets.  On failure, this function will return -1 on a select failure or timeout (from the underlying select system call).
+   Returns 0 on success, or one of the <constant>CURLM_XXX</constant> error
+   codes.
   </para>
  </refsect1>
 
@@ -48,7 +43,9 @@
   &reftitle.seealso;
   <para>
    <simplelist>
+    <member><function>curl_init</function></member>
     <member><function>curl_multi_init</function></member>
+    <member><function>curl_multi_add_handle</function></member>
    </simplelist>
   </para>
  </refsect1>
