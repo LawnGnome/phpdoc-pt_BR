@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- EN-Revision: 322140 Maintainer: felipe Status: ready -->
+<!-- EN-Revision: 331733 Maintainer: ae Status: ready Credits: felipe -->
 <reference xml:id="ref.oci8" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>&Functions; OCI8</title>
 
-  &reference.oci8.entities.OCI-Collection;
-  &reference.oci8.entities.OCI-Lob;
   &reference.oci8.entities.functions;
 
 </reference>
