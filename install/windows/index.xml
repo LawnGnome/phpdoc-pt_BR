@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- EN-Revision: 335249 Maintainer: ae Status: ready --><!-- CREDITS: thiago,ae -->
+<!-- EN-Revision: 338941 Maintainer: ae Status: ready --><!-- CREDITS: thiago, ae, fabioluciano -->
   <chapter xml:id="install.windows" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
    <title>Instalação em sistemas Windows</title>
    <para>
@@ -23,7 +23,7 @@
     </para>
    </note>
    <para>
-    Se você tiver um ambiente de desenvolvimento como o Microsoft Visual Studio, 
+    Se você tiver um ambiente de desenvolvimento como o Microsoft Visual Studio,
     você pode também <link linkend="install.windows.building">compilar</link>
     o PHP a partir do código-fonte original.
    </para>
@@ -32,11 +32,11 @@
     querer <link linkend="install.windows.extensions">carregar várias extensões</link>
     para adicionar funcionalidades.
    </para>
-   
+
    &install.windows.legacy.manual;
    &install.windows.legacy.iis;
    &install.windows.legacy.iis6;
-   &install.windows.legacy.iis7;   
+   &install.windows.legacy.iis7;
    &install.windows.legacy.apache1;
    &install.windows.legacy.apache2;
    &install.windows.legacy.sun;
