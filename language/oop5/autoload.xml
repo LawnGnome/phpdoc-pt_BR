@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- EN-Revision: 338462 Maintainer: fabioluciano Status: ready --><!-- CREDITS: felipe, amandavale, machado, fabioluciano -->
+<!-- EN-Revision: 338943 Maintainer: fabioluciano Status: ready --><!-- CREDITS: felipe, amandavale, machado, fabioluciano -->
  <sect1 xml:id="language.oop5.autoload" xmlns="http://docbook.org/ns/docbook">
   <title>Autoloading Classes</title>
   <para>
