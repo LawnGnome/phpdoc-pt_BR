@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- EN-Revision: 288721 Maintainer: felipe Status: ready -->
- 
+<!-- EN-Revision: 330340 Maintainer: ae Status: ready --><!-- CREDITS: felipe,ae -->
+
 <book xml:id="book.bc" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <?phpdoc extension-membership="bundled" ?>
  <title>BCMath Funções Matemáticas de Precisão Arbitrária</title>
  <titleabbrev>BC Math</titleabbrev>
- 
+
  <!-- {{{ preface -->
  <preface xml:id="intro.bc">
   &reftitle.intro;
   <para>
-   Para matemática de precisão arbitrária, o PHP oferece a Calculadora Binária com
-   suporte a números de qualquer tamanho e precisão, representados como strings.
+    Para matemática de precisão arbitrária, o PHP oferece uma calculadora binária com
+    suporte a números de qualquer tamanho e precisão, representados como strings.
   </para>
  </preface>
  <!-- }}} -->
